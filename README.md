@@ -1,6 +1,6 @@
 ## Coursework information
 
-This is a course assignment implementation of AES-256 in Rust for the purpose of understanding the algorithm's internals and gaining experience at writing Rust code. The implementation uses subfield arithmetic to data-dependent branches and memory accesses.
+This is a course assignment implementation of AES-256 in Rust for the purpose of understanding the algorithm's internals and gaining experience at writing Rust code. The implementation uses subfield arithmetic to avoid data-dependent branches and memory accesses.
 
 ## working_main
 
