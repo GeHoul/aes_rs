@@ -2,7 +2,7 @@
 
 This is a course assignment implementation of AES-256 in Rust for the purpose of understanding the algorithm's internals and gaining experience at writing Rust code. The implementation uses subfield arithmetic to avoid data-dependent branches and memory accesses.
 
-## working_main
+## working_main (current main is ctr_encrypt_test)
 
 Creates a binary which when run, it promts you to choose between the actions of encryption/decryption. The mode used is simple CTR. The init counter block is stored at the begining of the file during encryption and it's extracted during decryption. This means that decrypting a file with the wrong password destroys the file.
 
