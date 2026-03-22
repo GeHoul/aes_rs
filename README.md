@@ -16,4 +16,4 @@ Even though CTR mode doesn't use the inverse of the AES-256 cipher function, it 
 
 ## sample
 
-Aside from "ctr_encrypt_test", this directory contains the "decrypt" and "fake_secret_swap", which were used in the presentation of this coursework to show how the simple CTR mode can be exploited by swapping the encrypted file A with a file B, then decrypt B to gain C and then yield the plain text by xoring A + B + C.
+Aside from "ctr_encrypt_test", this directory contains "decrypt" and "fake_secret_swap", which were used in the presentation of this coursework to show how the simple CTR mode can be exploited by swapping the encrypted file A with a file B, then decrypt B to gain C and then yield the plain text by xoring A + B + C.
